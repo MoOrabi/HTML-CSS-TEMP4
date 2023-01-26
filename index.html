@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/orabi.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+  </head>
+    <body>
+        <div class="page d-flex">
+            <div class="sidebar bg-white p-20 p-relative">
+                <h3 class="p-relative txt-c mt-0">Mo Orabi</h3>
+                <!-- <span class="line bg-black txt-c p-0"></span> -->
+                <ul class="ml-0 mt-50">
+                    <li class="active">
+                        <a class="d-flex align-center fs-11 c-black rad-6" href="index.html">
+                            <i class="far fa-chart-bar fa-fw"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-11 c-black rad-6" href="settings.html">
+                            <i class="fa-solid fa-gear fa-fw"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-11 c-black rad-6" href="profile.html">
+                            <i class="far fa-user fa-fw"></i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-11 c-black rad-6" href="projects.html">
+                            <i class="fa-solid fa-project-diagram fa-fw"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-11 c-black rad-6" href="courses.html">
+                            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                            <span>Courses</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-11 c-black rad-6" href="friends.html">
+                            <i class="far fa-user-circle fa-fw"></i>
+                            <span>Friends</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-11 c-black rad-6" href="files.html">
+                            <i class="far fa-file fa-fw"></i>
+                            <span>Files</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-11 c-black rad-6" href="plans.html">
+                            <i class="far fa-credit-card fa-fw"></i>
+                            <span>Plans</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="search-head mb-0">
+                    <div class="search-div rad-6">
+                        <i class="m-10 fa-solid fa-search fa-fw"></i>
+                        <input class="search" type="text" placeholder="Type A Keyword">
+                    </div>
+                    <div class="notif">
+                        <i class="far fa-bell fa-fw"></i>
+                        <img class="rad-c" src="imgs/avatar.jpg" alt="">
+                    </div>
+                    
+                </div>
+                <div class="title p-10">
+                    <h3 class="m-10">Dashboard</h3>
+                    <span class="bg-white" data-width="20%"></span>
+                </div>
+                <div class="boxes p-10">
+                    <div class="welcome rad-10">
+                        <div class="welcome-txt">
+                            <div class="welcome-name">
+                                <h3 class="mb-5 mt-5">Welcome</h3>
+                                <span>Mo Orabi</span>
+                            </div>                        
+                            <img src="imgs/welcome.png" alt="">
+                        </div>
+                        <div class="info bg-white">
+                            <img class="rad-c" src="imgs/avatar.jpg" alt="">
+                            <div class="info-big">
+                                <div class="name">
+                                    <span class="piece">Mohammed Orabi</span>
+                                    <span class="def">Back-End Developer</span>
+                                </div>
+                                <div class="projects">
+                                    <span class="piece">80</span>
+                                    <span class="def">Projects</span>                            
+                                </div>
+                                <div class="earned">
+                                    <span class="piece">$8500</span>
+                                    <span class="def">Earned</span>                            
+                                </div>
+                            </div>
+                            <button class="bg-blue m-10">Profile</button>
+                        </div>
+                    </div>
+                    <div class="draft p-20 rad-10">
+                        <h3 class="mb-0 pb-0">Quick Draft</h3>
+                        <p class="c-grey fs-11 pt-0">Write A Draft For Your Ideas</p>
+                        <input name="title" id="title" type="text" class="rad-6" placeholder="Title">
+                        <textarea name="thought" id="thought" class="rad-6" placeholder="Your Thought"></textarea>
+                        <input class="save bg-blue c-white d-block" type="submit" value="Save">
+                    </div>
+                    <div class="targets p-20 rad-10">
+                        <h3 class="mb-0 pb-0">Yearly Targets</h3>
+                        <p class="c-grey fs-11 pt-0">Targets Of The Year</p>
+                        <div class="money">
+                            <div class="icon">
+                                <i class="fa-solid fa-dollar-sign fa-fw c-blue"></i>
+                            </div>
+                            <div class="info">
+                                <p>Money</p>
+                                <p class="num">$20.000</p>
+                                <div class="progress">
+                                    <span>
+                                        <span>80%</span>
+                                    </span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="projects">
+                            <div class="icon">
+                                <i class="fa-solid fa-code fa-fw c-orange"></i>
+                            </div>
+                            <div class="info">
+                                <p>Projects</p>
+                                <p class="num">24</p>
+                                <div class="progress">
+                                    <span>
+                                        <span>55%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team">
+                            <div class="icon">
+                                <i class="fa-solid fa-user fa-fw c-green"></i>
+                            </div>
+                            <div class="info">
+                                <p>Team</p>
+                                <p class="num">12</p>
+                                <div class="progress">
+                                    <span>
+                                        <span>75%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="statistics">
+                        <h3>Welcome</h3>
+                    </div>
+                    <div class="news">
+                        <h3>Welcome</h3>
+                    </div>
+                    <div class="tasks">
+                        <h3>Welcome</h3>
+                    </div>
+                    <div class="top-search">
+                        <h3>Welcome</h3>
+                    </div>
+                    <div class="uploads">
+                        <h3>Welcome</h3>
+                    </div>
+                    <div class="projects-progress">
+                        <h3>Welcome</h3>
+                    </div>
+                    <div class="reminders">
+                        <h3>Welcome</h3>
+                    </div>
+                    <div class="post">
+                        <h3>Welcome</h3>
+                    </div>
+                    <div class="stats">
+                        <h3>Welcome</h3>
+                    </div>
+                </div>
+                <div class="projects">
+                    <h3>Projects</h3>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
