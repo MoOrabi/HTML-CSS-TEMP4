@@ -417,6 +417,15 @@ ul {
   }
 }
 
+.tasks .task.done {
+  opacity: 0.3;
+}
+
+.tasks .task.done h3,
+.tasks .task.done p {
+  text-decoration: line-through;
+}
+
 .tasks .task:not(:last-of-type) {
   padding-bottom: 15px;
   margin-bottom: 15px;
@@ -435,3 +444,13 @@ ul {
 .tasks .delete:hover {
   color: red;
 }
+
+.latest-uploads ul li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.latest-uploads ul li img {
+  width: 40px;
+  height: 40px;
+}
+
